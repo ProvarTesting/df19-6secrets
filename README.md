@@ -41,25 +41,25 @@ Contents
 --------
 The contents of this repo relate to the following points:
 
-#1 Automate your Entitlement Creation:
-    Account_Management.flow-meta.xml,
-    EntitlementsHelper.cls
+#1 Automate your Entitlement Creation:  
+    Account_Management.flow-meta.xml,  
+    EntitlementsHelper.cls  
     
-#2 Case Entitlement Lookup Population:
-    CaseTrigger.cls,
-    EntitlementsHelper.cls
+#2 Case Entitlement Lookup Population:  
+    CaseTrigger.cls,  
+    EntitlementsHelper.cls  
     
-#3 Case Path Automation:
-    Email_Automation.flow-meta.xml
+#3 Case Path Automation:  
+    Email_Automation.flow-meta.xml  
     
-#4 Milestone Autocompletion:
-    Case_Management.flow-meta.xml
+#4 Milestone Autocompletion:  
+    Case_Management.flow-meta.xml  
 
-#5 Stop & Start the SLA Clock:
-    Case_Management.flow-meta.xml
+#5 Stop & Start the SLA Clock:  
+    Case_Management.flow-meta.xml  
 
-#6 Case Close Automation:
-    Case_Management.flow-meta.xml
+#6 Case Close Automation:  
+    Case_Management.flow-meta.xml  
 
 Six Secrets Presentation
 ------------------------
