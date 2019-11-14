@@ -9,6 +9,10 @@ Examples Installation
 ---------------------
 
 The examples used in my Dreamforce 19 talk are available for a limited time as an Unmanaged Package by installing from here:
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1s0000000SIh&isdtp=p1
+
+or for sandboxes:
+https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1s0000000SIh&isdtp=p1
 
 
 On a more permanent basis you can install into a Scratch Org using Salesforce DX:
