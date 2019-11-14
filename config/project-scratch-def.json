@@ -1,0 +1,19 @@
+{
+  "orgName": "ProvarTesting",
+  "edition": "Enterprise",
+  "features": ["Communities", "ServiceCloud", "Entitlements"],
+  "settings": {
+      "communitiesSettings": {
+          "enableNetworksEnabled": true
+      },
+      "lightningExperienceSettings": {
+          "enableS1DesktopEnabled": true
+      },
+      "omniChannelSettings": {
+          "enableOmniChannel": true
+      },
+      "caseSettings": {
+          "systemUserEmail": "support@acme.com"
+      }
+  }
+}

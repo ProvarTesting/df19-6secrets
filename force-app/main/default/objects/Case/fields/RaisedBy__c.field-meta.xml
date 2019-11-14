@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RaisedBy__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>RaisedBy is a copy of the original case creator. It&#39;s useful when the case has been re-assigned to a queue or success team member so that we can ensure the Case is included in a Raised By Me list view for community users</description>
+    <externalId>false</externalId>
+    <label>RaisedBy</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

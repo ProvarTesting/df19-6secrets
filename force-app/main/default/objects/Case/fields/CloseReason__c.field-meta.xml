@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CloseReason__c</fullName>
+    <description>Reason for customer closing the case or Provar employee resolving the case</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please provide some additional information about why you are resolving or closing this case so we can understand more about the issue encountered.</inlineHelpText>
+    <label>Reason/Resolution</label>
+    <length>131072</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>6</visibleLines>
+</CustomField>

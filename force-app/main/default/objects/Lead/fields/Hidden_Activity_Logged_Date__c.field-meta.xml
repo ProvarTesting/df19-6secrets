@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hidden_Activity_Logged_Date__c</fullName>
+    <description>Hidden date field updated by process/apex when a task is completed against the lead. This synchronizes the LastModifiedDate with the LastActivityDate (so that if a task is logged, LastModifiedDate is updated).</description>
+    <externalId>false</externalId>
+    <label>Hidden Activity Logged Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>
