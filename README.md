@@ -18,24 +18,24 @@ https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1s0000000SIh&is
 On a more permanent basis you can install into a Scratch Org using Salesforce DX.
 
 Clone this repo locally using:
-'''
+```
 git clone https://github.com/rclark-provar/df19-6secrets
-'''
+```
 
 This will provide the building blocks for deploying the examples to a SFDX Scratch Org using the following commands:
-'''
+```
 sfdx force:org:create -f project-scratch-def.json -a MySixSecrets
-'''
+```
 
 Now push the project into your new scratch org:
-'''
+```
 sfdx force:source:push -u MySixSecrets
-'''
+```
 
 To checkout the declarative contents open the scratch org to inspect the process builder items:
-'''
+```
 sfdx force:org:open -u MySixSecrets
-'''
+```
 
 Contents
 --------
