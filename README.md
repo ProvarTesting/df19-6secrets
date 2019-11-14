@@ -22,7 +22,7 @@ Clone this repo locally using:
 git clone https://github.com/rclark-provar/df19-6secrets
 ```
 
-This will provide the building blocks for deploying the examples to a SFDX Scratch Org using the following commands:
+This will provide the building blocks for deploying the examples to a SFDX Scratch Org using the following commands, assuming you've already connected your DevHub org (sfdx force:auth:web:login -d -a DevHub):
 ```
 sfdx force:org:create -f project-scratch-def.json -a MySixSecrets
 ```
